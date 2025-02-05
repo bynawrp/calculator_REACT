@@ -1,0 +1,21 @@
+.container-calculator{
+    .input-result{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+
+        input{
+            width: 100%;
+            padding: 5px;
+            border-radius: 8px;
+        }
+    }
+    
+
+    .button-calculator{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2px
+    }
+}
